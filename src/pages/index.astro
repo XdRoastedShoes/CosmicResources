@@ -1,0 +1,26 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Card from '../components/Card.astro';
+import Hero from '/hero.png';
+---
+
+<Layout title="Cosmic Resources.">
+	<br>	
+	<br>
+	<Card title="Physics A level Notes", body='', href='/blog' />
+	<br>
+	<Card title="Past papers on youtube", body='', href='' />
+	<br>
+	<Card title="Topic Wise MCQs", href='/Mcq', body='' />
+	
+	<!-- Test for Latex astro component  -->
+	<!-- <div>
+		<span class="text-white">
+			<Latex formula = "c = \\pm\\sqrt{a^2 + b^2}"> 
+		</span>
+	</div> -->
+	<!-- Test for the mechanics script within astro tags -->
+	
+		<a href="/"> <img src={Hero} alt="Astronaut in the ocean"> </a>
+	</div>
+</Layout>

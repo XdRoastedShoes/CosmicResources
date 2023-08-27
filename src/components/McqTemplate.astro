@@ -1,0 +1,22 @@
+---
+const { McqImage, CorrectChoice, SerialNo} = Astro.props;
+---
+<br>    
+<div class="grid place-content-center">
+    <div class="grid grid-cols">
+        <span class="text-white">
+            { SerialNo }.
+           </span>
+        <img src={ McqImage } alt="Loading">
+    </div>   
+    <br>
+    <div>
+        <button class="focus:outline-none text-violet-400 hover:text-violet-500 active:text-violet-600 font-sans italic">
+            Correct choice:
+            <span class="focus:outline-none text-black hover:text-violet-500 active:text-violet-600 font-sans italic">
+                { CorrectChoice }
+            </span>
+        </button>
+    </div>
+    <br>
+</div>

@@ -1,0 +1,42 @@
+---
+title: 'Physical Quantity and Units'
+description: 'Topic 1.1 - 1.4 A level Physics'
+pubDate: 'Jul 02 2022'
+heroImage: '/blog-placeholder-5.jpg'
+---
+- We will be going through the entire CAIE Physics A level syllabus starting with Chapter 1 - Physical
+- Quantity and Units.
+1.1 - Physical Quantities  
+- Any quantity which can be represented with a numerical magnitude and a unit is a physical quantity. For example if we have the length of an object it will be considered a physical quantity since it contains a unit (meter) and a numerical magnitude.
+1.2 - SI units   
+Any unit from which other units are formed or derived are SI base units. The syllabus calls for us to recall 5 SI base units which are:  
+mass - kilograms (kg)  
+length - meter (m)  
+time - second (s)  
+current - ampere (A)  
+temperature - kelvin (K)  
+- We can use these units to find other units, for example if we take the equation F = m*a, we can say that the unit of mass is kg and the unit of acceleration is meter per second^2, the unit of Force will be kg meter per second^2. We also know that the unit of Force is newton (N), so Newton is equal to kg meter per scond ^2.
+- We can also use these units to find whether an equation will be correct or not. For example if someone tells us that equation for force is F = v*t and we know the units of Force are kg meter per second^2 (N), we can easily prove that the equation is bogus since v*t leads to meter per second * second, which is meter.
+- The syllabus also calls for us to use prefixes and their symbols to indicate decimal submultiples or multiples of both base and derived base units, Lets say we have a unit meter, one 
+pico (p) meter = 1 x 10^-12 m   
+nano (n) meter = 1 x 10^-9 m   
+micro (u) meter = 1 x 10^-6 m  
+milli (m) meter = 1 x 10^-3 m   
+centi (c) meter = 1 x 10^-2 m   
+deci (d) meter = 1 x 10^-1 m   
+kilo (k) meter = 1 x 10^3 m   
+mega (M) meter = 1 x 10^6 m   
+giga (G) meter = 1 x 10^9 m  
+tera (T) meter = 1 x 10^12 m   
+1.3 Errors and Uncertainties   
+There are essentially two types of errors Systematic and Random errors.   
+Systematic Error occurs when there is an issue which persists within the apparatus. For example if we have an instrument which is incorrectly calibrated, then the issue will always produce an erroneous measurement with the same margin of error. One prominent example of a systematic error is a zero error which occurs when  an instrument provides a value when the true value at that time is zero. It can be negative or positive, and to workout the true value at that time, we can take a regular reading and subtract or add the zero error onto it, if the zero error is negative, we add the zero error and if the zero error is positive, we subtract the zero error.  A systematic error cannot be removed by taking multiple readings.  
+Random error is an error which fluctuates (randomly) from reading to reading. Random errors most commonly occur due to any disturbance within the surroundings. Random errors can be dealt with by taking multiple readings.  
+If the cause of an error can be pin pointed and that cause can be theoretically removed, it is a systematic and not a random error.  
+- Precision and accuracy -> Precision and accuracy are the measurements of observational errors. Precision implies the range while accuracy implies the closeness to the true value. If a set of values are to be precise, they must have low range, but this does not mean they are accurate. If a set of values are to be accurate, then they must be close to the true value, but again this does not mean they are precise. A set of values can be precise but inaccurate and inaccurate but precise.
+- Now lets say we have two values (4.5 and 5.4) and we want to add these values, and these two values have uncertainties so we have (4.5 +/- 0.5) and (5.4 +/- 0.3), to add these values we can just add the numbers and the uncertainties so we get, 4.5+5.4 = 5.9 and 0.5+0.3 = 0.8. We now get (9.9 +/- 0.8). Even if we wanted to subtract the two values, we would still add the uncertainties. These two uncertainties which we have added are the absolute uncertainties. If however we were to multiply or divide these two quantities, we would add the percentage uncertainties. For example the percentage uncertainty of 4.5 is 11.11 % (0.5/4.5  x 100), and the percentage uncertainty of 5.4 is 5.56% (0.3/5.4 * 100). In the case of multiplication or division then we would simply add the percentage uncertainties to get 16.67% ( 5.56% + 11.11 %). Now to convert this percentage uncertainty to Absolute uncertainty, we would multiply it by the new (multiplied or divided) value. In the case of multiplication our value will be 21.6 (4.5 * 5.4) and our uncertainty will be 3.6 (16.67/100 * 21.6).Generic text and stuff
+
+
+import Latex from '../../components/Latex.astro';
+
+<Latex formula = "c = \\pm\sqrt{a^2 + b^2}" />
